@@ -25,7 +25,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_aries().
  */
-function sitenow_standard_base_preprocess_aries(&$variables) {
+function template_preprocess_aries(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-aries';
   $variables['attributes_array']['class'][] = 'panel-display--aries';
 

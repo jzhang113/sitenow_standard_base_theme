@@ -21,7 +21,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_colossus().
  */
-function sitenow_standard_base_preprocess_colossus(&$variables) {
+function template_preprocess_colossus(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-colossus';
   $variables['attributes_array']['class'][] = 'panel-display--colossus';
 

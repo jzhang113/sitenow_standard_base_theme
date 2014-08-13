@@ -21,7 +21,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_guardian().
  */
-function sitenow_standard_base_preprocess_guardian(&$variables) {
+function template_preprocess_guardian(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-guardian';
   $variables['attributes_array']['class'][] = 'panel-display--guardian';
 

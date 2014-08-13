@@ -20,7 +20,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_zero().
  */
-function sitenow_standard_base_preprocess_zero(&$variables) {
+function template_preprocess_zero(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-zero';
   $variables['attributes_array']['class'][] = 'panel-display--zero';
 

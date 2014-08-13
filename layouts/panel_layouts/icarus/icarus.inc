@@ -21,7 +21,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_icarus().
  */
-function sitenow_standard_base_preprocess_icarus(&$variables) {
+function template_preprocess_icarus(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-icarus';
   $variables['attributes_array']['class'][] = 'panel-display--icarus';
 
