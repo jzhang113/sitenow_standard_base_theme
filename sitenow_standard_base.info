@@ -10,8 +10,7 @@ core = 7.x
 ; Stylesheets
 ; ========================================
 stylesheets[all][] = css/sitenow-standard-base.normalize.css
-stylesheets[all][] = css/sitenow-standard-base.hacks.css
-stylesheets[all][] = css/sitenow-standard-base.styles.css
+stylesheets[all][] = css/sitenow-standard-base.layouts.css
 stylesheets[all][] = css/sitenow-standard-base.no-query.css
 
 ; ========================================

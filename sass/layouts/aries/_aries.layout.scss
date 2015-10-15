@@ -1,15 +1,3 @@
-/*******************************************************************************
- * aries.layout.scss
- *
- * Styling of the "Aries" layout
- * grids with Singularity.
- ******************************************************************************/
-@import "compass";
-@import "breakpoint";
-@import "singularitygs";
-@import "../../variables/breakpoints";
-@import "../../utilities/grids";
-
 // Set Singularity grid variables.
 $grids: 12;
 $gutters: 1/3;
